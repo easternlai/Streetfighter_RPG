@@ -11,21 +11,41 @@
 </head>
 <body>
     <div class="main-wrapper">
+        <div class="user-message"></div>
         <div class="unchosen-wrapper">
-            <button id="ken" class="unchosen-fighter" value="Ken"><img src="assets/img/ken.png" alt=""></button>
-            <button id="ryu" class="unchosen-fighter" value="Ryu"><img src="assets/img/ryu.png" alt=""></button>
-            <button id="guile" class="unchosen-fighter" value="Guile"><img src="assets/img/guile.png" alt=""></button>
-
-
-        </div>
-        <div class="user-message">
+            <button id="Ken" class="unchosen-fighter icon" value="Ken"><img src="assets/img/ken.png" alt=""></button>
+            <button id="Ryu" class="unchosen-fighter icon" value="Ryu"><img src="assets/img/ryu.png" alt=""></button>
+            <button id="Guile" class="unchosen-fighter icon" value="Guile"><img src="assets/img/guile.png" alt=""></button>
+            <button id="Blanka" class="unchosen-fighter icon" value="Blanka"><img src="assets/img/blanka.png" alt=""></button>
+            <img src="assets/img/ken.png" class="hidden-icon"alt="">
 
         </div>
-        <div class="chosen-player">
+        
 
         </div>
-        <div class="chosen-opponent"></div>
-        <div class="defeated-opponent">
+        <div class="battle-wrapper">
+            <div class="player-wrapper">
+                <div class="chosen-player">
+                    <img src="assets/img/ken.png" class="hidden-icon"alt="">
+                </div>
+                <p id="player-health"></p>
+                <button id="attack">Attack!</button>
+            </div>
+            <div class="arena">
+                    <img src="assets/img/ryu-bg.png" alt="">
+            </div>
+
+
+            <div class="chosen-opponent">
+                <img src="assets/img/ken.png" class="hidden-icon"alt="">
+            </div>  
+            </div>
+            <p id="opponent-health"></p>
+        <div class="defeated-opponent icon">
+            <button id="Ken-defeat" class="unchosen-fighter hide-icon" value="Ken"><img src="assets/img/ken-defeated.png" alt=""></button>
+            <button id="Ryu-defeat" class="unchosen-fighter hide-icon" value="Ryu"><img src="assets/img/ryu-defeated.png" alt=""></button>
+            <button id="Guile-defeat" class="unchosen-fighter hide-icon" value="Guile"><img src="assets/img/guile-defeated.png" alt=""></button>
+            <button id="Blanka-defeat" class="unchosen-fighter hide-icon" value="Guile"><img src="assets/img/Blanka-defeated.png" alt=""></button>
         </div>
     </div>
 </body>
