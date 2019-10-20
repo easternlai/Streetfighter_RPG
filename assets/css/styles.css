@@ -1,16 +1,18 @@
 body {
-    background-color: beige;
+    background-image: url("../img/ryu-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
 }
 
 
 .user-message {
-    margin-top: 20px;
+    margin: 20px 5px 20px;
 }
 
-.battle-wrapper{
-    position: absolute;
+.player-wrapper,.opponent-wrapper, .defeated-opponent {
+    margin: 20px 10px 20px;
 }
-
 
 .hide-icon {
     display: none;
@@ -24,18 +26,49 @@ body {
     display: inline;
 }
 
+
+
 .chosen-player {
     min-width: 200px;
 }
 
 .icon {
     display: inline;
-    background-color: beige;
-
+    margin-left: 10px;
 }
+
 
 .icon img {
     height: 100px;
     width: 100px;
+}
+
+.defeated-fighter{
+    margin-left: 15px;
+}
+
+.defeated-opponent p {
+    margin-top: 20px;
+    padding-bottom: 5px;
+
+
+}
+
+p {
+    font-size: 3em;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.screen-text {
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    color: black;
+    border: black solid 2px;
+    margin-bottom: 20px;
 
 }
